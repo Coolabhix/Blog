@@ -1,0 +1,192 @@
+html {
+	color: #1a1a1a;
+	background-color:lavenderblush;
+
+
+}
+.background {
+	/*background: #d8d8d8;*/
+    background: rgba(216, 216, 216, 0.7);
+    margin: 10px;
+}
+body{
+	margin: 0;
+}
+header {
+	text-align: center;
+	/*display: flex;
+	flex-direction: column;*/
+	margin: 0px!important;
+	
+}
+header h1 {
+	margin: 0!important;
+	padding: 15px;
+	font-family: 'Playfair Display', serif; 
+}
+h1 {
+	font-size: 300%;
+}
+h2 {
+	font-size: 250%;
+
+}
+p {
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 100%;
+}
+li {
+	list-style: none;
+	padding: 10px;
+	font-size: 120%;
+	font-family: 'Brygada 1918', serif;
+}
+
+ul {
+	padding: 0;
+	margin: 0px;
+}
+.main-img {
+	background: url(../images/main-img.jpg) no-repeat center center fixed;
+	min-height: 100vh;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-text {
+	text-align: center;
+	font-size: 2em;
+	padding: 1.5em;
+	border-radius: 10px;
+	font-family: 'Brygada 1918', serif;
+}
+a {
+	color: #1a1a1a;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+article, .sidebar-widget {
+	padding: 15px;
+	margin: 15px 0!important;
+	border: 0.2px solid lightslategray;
+}
+article > header {
+	background: #d8d8d8;
+}
+.icon {
+	width: 40px !important;
+	margin: 0 5px;
+}
+img {
+	width: 100%;
+}
+.link:hover {
+	color: blue;
+}
+
+td:nth-child(2){
+	padding-left: 30px;
+}
+nav li{
+	display: inline-block;
+	flex-direction: column;
+
+}
+hr {
+	margin: 0 20px!important;
+	background-color: #bfbfbf;
+	height: 1px;
+	border: none;
+}
+nav {
+	padding: 0px;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+footer {
+	text-align: center;
+	margin: 10px;
+}
+
+.end-text {
+	padding: 20px;
+}
+.player{
+	width: 100%;
+}
+
+
+@media (min-width: 1000px) {
+	body {
+		max-width: 1600px;
+		margin: 0 auto;
+	}
+	header {
+		flex-direction: row;
+	}
+	header li {
+		display: inline-block;
+	}
+	header h1, header nav {
+		flex: 1;
+	}
+	header h1 {
+		margin-right: 400px;
+	}
+	header nav {
+		
+	}
+	/*blog*/
+	.wrapper {
+		flex-direction: row;
+	}
+
+	main {
+		flex: 3;
+	}
+
+	aside {
+		flex: 1;
+		margin-left: 15px;
+	}
+	article > header {
+		justify-content: space-around;
+	}
+	img {
+	    width: 100%;
+	    height: 430px;
+    }
+    .icon {
+	width: 40px !important;
+	height: 40px;
+	margin: 0 5px;
+	}
+	
+	.blog-img {
+		margin-bottom: 20px;
+		border: 0.2px solid lightslategray;
+	}
+	
+    .sidebar-widget {
+    	border: 0.2px solid lightslategray;
+
+    }
+    h1{
+    	font-size: 500%;
+    }
+    article, .sidebar-widget {
+    	margin-top: 0px!important;
+    }
+    main-text {
+    	color:red!important;
+    }
+    .player{
+    	height: 400px;
+    }
+   
+
+}
